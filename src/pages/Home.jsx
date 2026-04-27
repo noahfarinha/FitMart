@@ -9,6 +9,7 @@ export default function Home(){
 
         <div className="container">
             <h2 className="page-title">Product List</h2>
+            
             </div>
     </div>
     );
