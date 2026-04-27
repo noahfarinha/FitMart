@@ -496,6 +496,7 @@ body {
   .navbar-links {
     width: 100%;
     flex-wrap: wrap;
+    
   }
 
   .home-title {
