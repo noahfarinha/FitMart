@@ -49,7 +49,7 @@ const products = [
     name: "TreadMill",
     price: 499.99,
     image:
-      "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=500&fit=crop",
+      "https://cdn.fitshop.co.uk/pictures/lifefitness/treadmills/CVTM4066/Life_Fitness_Club_Series_Plus_Treadmill_With_SL_LED_Console_Angled_View_1600_1600_1600.jpg",
     description:
       "TreadMill with multiple intensity levels, speeds, workouts. It also tracks calories lost, time taken and distance run",
   },
