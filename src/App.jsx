@@ -8,6 +8,7 @@ import './App.css';
 
 function App() {
   return (
+    <AuthProvider>
   <div className="app">
     <Navbar />
     <Routes>
@@ -16,6 +17,7 @@ function App() {
       <Route path="/checkout" element={<Checkout />} />
     </Routes>
     </div>
+    </AuthProvider>
   );
 }
 
