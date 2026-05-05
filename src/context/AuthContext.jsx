@@ -1,16 +1,20 @@
 import {createContext} from "react";
 
-const AuthContext = createContext(null);
+export const AuthContext = createContext(null);
 
 export default function AuthProvider({children}){
     const [user, setUser] = useState(null);
 
     function signUp(email, password){
+        const users =[];
 
-    }
+        const newUser = {email, password};
+        users.push(newUser);
+        localStorage.setItem("users", JSON.stringify(users));
+        }
 
     function login(){
 
     }
-    return <AuthContext.Provider>{children}</AuthContext.Provider>;
+    return <AuthContext.Provider>{{signUp}}</AuthContext.Provider>;
 }
