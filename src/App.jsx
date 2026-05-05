@@ -6,10 +6,11 @@ import Navbar from "./components/Navbar";
 
 import './App.css';
 
+
 function App() {
   return (
-    <AuthProvider>
   <div className="app">
+    
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
@@ -17,7 +18,6 @@ function App() {
       <Route path="/checkout" element={<Checkout />} />
     </Routes>
     </div>
-    </AuthProvider>
   );
 }
 
